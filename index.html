@@ -14,20 +14,36 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+  <nav class="navbar bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white " href="#">
+        <img class="img-fluid rounded img-thumbnail" src="assets/img/logo_sinfondo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        SuperHero
+      </a>
+    </div>
+  </nav>
+
+ 
+    <div class="row mt-4 me-2 ms-2">
+      <div class="col-4 pt-5"><img src="assets/img/shm.jpg" alt=""  class="img-fluid rounded img-thumbnail"></div>
+      <div class="col-4"><h1 class="display-1">Tus SuperHeroes Favoritos en un solo lugar</h1> <p class="h1">En esta pagina podras buscar las caracteristicas y estadisticas de poder</p></div>
+      <div class="col-4 pt-5"><img src="assets/img/th.jpg" alt=""  class="img-fluid rounded img-thumbnail"></div>
+    </div>
+
+
+  </section>
   <form id= "formulario" class="d-flex" role="search">
-    <input id="numHeroe" class="form-control me-2" type="search" placeholder="buscar" aria-label="Buscar">
-    <button class="btn btn-dark" type="submit">Buscar</button>
+    <input id="numHeroe" class="form-control ms-5 me-2" type="search" placeholder="buscar" aria-label="Buscar">
+    <button class="btn btn-danger me-5" type="submit">Buscar</button>
   </form>
 
 
-<div class="hero">
+  <div class="hero row mt-4 ms-5">
+    <div id="heroCard" class="col-6"></div>
+    <div id="heroChart" class="col-5"></div>
+  </div>
 
-</div>
-
-<div id="heroChart">
-  
-</div>
-
+<footer class="footer bg-danger mt-5 pb-2"><h2>Teresa Olivares ©</h2></footer>
 
 <!-- Canvasjs-js de bootstrap -->
 <script src="https://cdn.canvasjs.com/ga/jquery.canvasjs.min.js"></script>

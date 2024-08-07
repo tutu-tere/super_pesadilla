@@ -43,6 +43,7 @@ jQuery.fn.superhero = function(token, heroId) {
 
   })
 
+  heroCard(response)
 })
   
   .fail();
